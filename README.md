@@ -18,7 +18,7 @@ The [JavaScript version of Quotes to Scrape](https://quotes.toscrape.com/js/) do
 | Notebook | What it does | Output |
 |---|---|---|
 | `quotes_js_two_pages_clean.ipynb` | Scrapes the first two pages and cleans the result into separate columns (author name, Goodreads link, tags) | `twopages_quotes_js_clean.csv` |
-| `quotes_js_all_pages.ipynb` | Scrapes all 10 pages, rewritten from memory with notes on what I got wrong along the way | `allpages_quotes_js.csv` |
+| `quotes_js_all_pages.ipynb` | Scrapes all 10 pages (100 quotes), rewritten from memory as a test of what I'd learned | `allpages_quotes_js.csv` |
 
 ## Techniques practised
 
