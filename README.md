@@ -1,6 +1,6 @@
-# Web Scraping Practice
+# Web Data Extraction
 
-Practice scrapers built to learn the fundamentals of collecting data from websites with Python, using two sandbox sites made for scraping practice: [Books to Scrape](http://books.toscrape.com/) and [Quotes to Scrape](http://quotes.toscrape.com/).
+Python scrapers that collect structured data from websites, built and tested on two sandbox sites designed for scraping: [Books to Scrape](http://books.toscrape.com/) and [Quotes to Scrape](http://quotes.toscrape.com/).
 
 This is part of a series: static sites first, then a JavaScript-rendered site, then a real-world scraping project (coming next).
 
@@ -20,7 +20,7 @@ The [JavaScript version of Quotes to Scrape](https://quotes.toscrape.com/js/) do
 | `quotes_js_two_pages_clean.ipynb` | Scrapes the first two pages and cleans the result into separate columns (author name, Goodreads link, tags) | `twopages_quotes_js_clean.csv` |
 | `quotes_js_all_pages.ipynb` | Scrapes all 10 pages (100 quotes), rewritten from memory as a test of what I'd learned | `allpages_quotes_js.csv` |
 
-## Techniques practised
+## Techniques used
 
 - **Following pagination:** finding the "next" link on each page until there are no more pages
 - **Parsing HTML** with BeautifulSoup and CSS selectors
